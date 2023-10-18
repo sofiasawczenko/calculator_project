@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CALCULADORA DIGITAL</title>
+        <link rel=stylesheet href="style.css">
+        <link rel="icon" type="image/png" href="img/calculator.png"/>
+    </head>
+    <body>
+        <div class="container"> 
+            <h1>Calculadora</h1>
+            <h6>A calculadora permite apenas a entrada de números</h6>
+            <div class="user-input">
+                <label for="num1">Número 1:</label>
+                <input type="number" id="num1">
+            </div>
+            <div class="user-input">
+                <label for="num2">Número 2:</label>
+                <input type="number" id="num2">
+            </div>
+            <div class="operations-container">
+                <button class='operation-button'id="sum"><img src="img/sum.svg" alt="somar"></button>
+                <button class='operation-button'id="subtract"><img src="img/subtract.svg" alt="subtrair"></button>
+                <button class='operation-button'id="multiply"><img src="img/multiplication.svg" alt="multiplicar"></button>
+                <button class='operation-button'id="divide"><img src="img/divisor.svg" alt="dividir"></button>
+                <button class='operation-button'id="reset"><img src="img/clear.svg" alt="dividir"></button> <!-- stands for "clear", deletes all user inputs -->
+            </div>
+            <p id="result">0</p>
+                <div class="user-input-clear">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

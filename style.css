@@ -1,0 +1,82 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#111111;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: #F2F1E4;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h6{
+    text-align: center;
+    color: #313131;
+}
+
+.container {
+    max-width: 35%;
+    height: 70%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 6%;
+    border-radius: 10%;
+
+}
+
+.user-input {
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+
+/* números */
+.user-input label {
+    display: inline-block;
+    width: 20%;
+    font-size: 13px;
+    color: #F2F1E4;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* box de input */
+.user-input input {
+    width: 60%;
+    height: 48%;
+    background-color: #313131;
+    color:white;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+
+.operations {
+    display: flex;
+    background-color: #000;
+}
+
+.operation-button {
+    background-color: #000;
+    border-radius: 990px;
+    border: none;
+    cursor:pointer;
+}
+
+.user-input-clear {
+    background-color: #0000;
+    border-bottom-left-radius: 99px;
+    border-bottom-right-radius: 99px;
+}
+
+.result {
+    margin-top: 50%;
+    font-weight: bold;
+    color: white;
+}
+
+#result {
+    color: #fff;
+    float: right;
+    font-size: 430%;
+
+}
