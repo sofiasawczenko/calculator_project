@@ -80,3 +80,18 @@ h6{
     font-size: 430%;
 
 }
+
+.operation-button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem; /* Adjust the size as needed */
+    color: #f5f5dc; /* Light beige color */
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.operation-button:hover {
+    transform: scale(1.1);
+}
