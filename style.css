@@ -82,16 +82,22 @@ h6{
 }
 
 .operation-button {
-    background-color: transparent;
+    background-color: #FFA500;
     border: none;
-    font-size: 2rem; /* Adjust the size as needed */
-    color: #f5f5dc; /* Light beige color */
-    padding: 10px 20px;
+    border-radius: 50%; 
+    font-size: 2rem; 
+    color: #f5f5dc; 
+    width: 60px; 
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     cursor: pointer;
     transition: transform 0.2s ease;
 }
 
 .operation-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); 
 }
+
